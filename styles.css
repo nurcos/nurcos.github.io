@@ -1,0 +1,282 @@
+/*
+  Palette: https://www.materialpalette.com/indigo/grey
+*/
+
+/*---------------
+ CSS RESET
+---------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+/*---------------
+ END OF RESET
+---------------*/
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-size: 58px;
+	margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+	color: #2d2d2d;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 42px;
+	margin-bottom: 30px;
+	color: #2d2d2d;
+}
+
+h4 {
+	font-size: 14px;
+	color: white;
+	line-height: 22px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+li {
+	line-height: 64px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #212121;
+	transition: 0.5s;
+}
+
+.punctuation {
+	color: #303F9F;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+  background-color: #303F9F;
+  color: white;
+	text-align: center;
+}
+
+.nav-bar li {
+	width: 10%;
+  display: inline-block;
+}
+
+.social {
+  position: absolute;
+  top: 0;
+  right: 0;
+	width: 64px;
+	height: 64px;
+	background: url("images/github-logo.png") no-repeat;
+	background-size: contain;
+}
+
+.social:hover {
+	background: url("images/github-logo-hover.png") no-repeat;
+	background-size: contain;
+	transition: 0.5s;
+}
+
+.header {
+	transition: 3s ease;
+	background-color: #757575;
+  background-image: linear-gradient(to top, #EBEBEB 0%, #757575 100%);
+  padding: 200px 0 150px 0;
+	border-bottom: solid 3px #303F9F;
+	text-align: center;
+}
+
+.header-left {
+	width: 600px;
+  vertical-align: middle;
+  display: inline-block;
+	margin-bottom: 50px;
+}
+
+.header-right {
+	width: 600px;
+  display: inline-block;
+}
+
+.button {
+	width: 50%;
+  background-color: #303F9F;
+  padding: 30px;
+  border-radius: 20px;
+	border: solid 2px black;
+	margin: auto;
+	color: white;
+}
+
+.button:hover {
+	background-color: #212121;
+	transition: 0.5s;
+}
+
+.content {
+	text-align: center;
+	border: 50px solid #C5CAE9;
+}
+
+.about {
+	background-image: radial-gradient(white 5%, #C5CAE9 70%);
+	padding: 30px 20%;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+}
+
+.skills {
+	width: 60%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	border-bottom: 2px solid #C5CAE9;
+	margin-bottom: 100px;
+}
+
+.skill {
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.skill-image {
+	display: inline-block;
+	width: 150px;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+
+.bar {
+	height: 10%;
+	width: 83%;
+	display: inline-block;
+	border: solid 2px black;
+	vertical-align: middle;
+}
+
+.bar-fill {
+	height: 100%;
+	vertical-align: middle;
+	border-right: solid 2px black;
+}
+
+#javascript-bar-fill {
+	background-image: linear-gradient(to right, #FFEB3B , #FBC02D);
+	background-color: yellow;
+	width: 40%;
+}
+
+#html-bar-fill {
+	background-image: linear-gradient(to right, #F44336 , #D32F2F);
+	background-color: red;
+	width: 60%;
+}
+
+#css-bar-fill {
+	background-image: linear-gradient(to right, #2196F3 , #1976D2);
+	background-color: #303F9F;
+	width: 55%;
+}
+
+.projects {
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 100px;
+}
+
+.projects-grid-item {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #212121;
+	border-color: #303F9F;
+	border-style: solid;
+	border-width: 4px 4px 3px 4px;
+	margin: 0 20px 100px 20px;
+}
+
+.projects-grid-item img {
+	width: 100%;
+}
+
+.projects-grid-item-title {
+	height: 30px;
+	background-color: #303F9F;
+	padding: 15px 15px 15px 15px;
+}
+
+.projects-grid-item:hover{
+	background-color: #C5CAE9;
+	transition: 0.5s;
+}
