@@ -75,30 +75,30 @@ body {
 }
 
 h1 {
-  font-size: 58px;
+  font-size: 3.5em;
 	margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 3em;
 	color: #2d2d2d;
 	margin-bottom: 20px;
 }
 
 h3 {
-	font-size: 42px;
+	font-size: 2.5em;
 	margin-bottom: 30px;
 	color: #2d2d2d;
 }
 
 h4 {
-	font-size: 14px;
+	font-size: 1.2em;
 	color: white;
 	line-height: 22px;
 }
 
 p {
-	font-size: 20px;
+	font-size: 1.3em;
 	line-height: 32px;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .nav-bar li {
-	width: 10%;
+	width: 15%;
   display: inline-block;
 }
 
@@ -168,6 +168,7 @@ a:hover {
 .header-right {
 	width: 600px;
   display: inline-block;
+	vertical-align: middle;
 }
 
 .button {
@@ -264,6 +265,7 @@ a:hover {
 	border-style: solid;
 	border-width: 4px 4px 3px 4px;
 	margin: 0 20px 100px 20px;
+	vertical-align: middle;
 }
 
 .projects-grid-item img {
