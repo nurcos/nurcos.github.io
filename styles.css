@@ -183,6 +183,7 @@ a:hover {
 	border: solid 2px black;
 	margin: auto;
 	font-size: 200%;
+	color: white;
 }
 
 .button:hover {
