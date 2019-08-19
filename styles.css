@@ -71,20 +71,20 @@ body {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 400%;
 	margin-bottom: 20px;
 	font-weight: bold;
 	color: #31375f;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 300%;
 	color: #2d2d2d;
 	margin-bottom: 20px;
 }
 
 h3 {
-	font-size: 2.5em;
+	font-size: 250%;
 	margin-bottom: 30px;
 	color: #31375f;
 	font-weight: bold;
@@ -95,13 +95,13 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2em;
+	font-size: 120%;
 	color: white;
 	line-height: 22px;
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 100%;
 	line-height: 32px;
 	color: white;
 }
@@ -157,7 +157,7 @@ a:hover {
 .header {
 	transition: 3s ease;
 	background-color: #ccd3ef;
-  padding: 200px 0 150px 0;
+  padding: 300px 0 200px 0;
 	border-bottom: solid 3px #31375f;
 	text-align: center;
 }
@@ -176,13 +176,13 @@ a:hover {
 }
 
 .button {
-	width: 50%;
+	width: 60%;
   background-color: #31375f;
-  padding: 30px;
-  border-radius: 20px;
+  padding: 40px;
+  border-radius: 80px;
 	border: solid 2px black;
 	margin: auto;
-	color: white;
+	font-size: 200%;
 }
 
 .button:hover {
