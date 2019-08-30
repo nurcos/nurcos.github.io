@@ -187,8 +187,9 @@ a:hover {
 }
 
 .button:hover {
-	background-color: #5A79B3;
 	transition: 0.5s;
+	background-color: #5A79B3;
+	color: #31375f;
 }
 
 .content {
