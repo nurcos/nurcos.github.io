@@ -241,19 +241,19 @@ a:hover {
 #javascript-bar-fill {
 	background-image: linear-gradient(to right, #FFEB3B , #FBC02D);
 	background-color: yellow;
-	width: 40%;
+	width: 60%;
 }
 
 #html-bar-fill {
 	background-image: linear-gradient(to right, #F44336 , #D32F2F);
 	background-color: red;
-	width: 60%;
+	width: 70%;
 }
 
 #css-bar-fill {
 	background-image: linear-gradient(to right, #2196F3 , #1976D2);
 	background-color: #303F9F;
-	width: 55%;
+	width: 65%;
 }
 
 .projects {
